@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import axios from 'axios';
 
- const Attractions = () => {
+
+const Attractions = () => {
   return (
-    <div>Here is the Attractions Page</div>
+    <div>This is the Attractions Page</div>
   )
 }
 

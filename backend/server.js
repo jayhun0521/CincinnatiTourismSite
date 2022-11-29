@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
+
 const path = require('path');
 
 require('dotenv').config();
@@ -12,8 +13,8 @@ app.use(cors());
 app.use(express.json());
 
 app.use(cors());
-app.use(expres.json('client/build'));
-app.use(express.static('client/build'));
+app.use(express.json());
+// app.use(express.static('client/build'));
 
 const uri = process.env.ATLAS_URI;
 mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true });
@@ -23,7 +24,7 @@ connection.once('open', () => {
     console.log("MongoDB database connection established successfully");
 })
 
-const attractionRouter = require('./routes/attractions');
+const attractionsRouter = require('./routes/attractions');
 const contactRouter = require('./routes/contact');
 
 
