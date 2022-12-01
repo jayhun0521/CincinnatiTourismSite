@@ -5,7 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-// import About from './components/about';
+import About from './components/About';
 import Contact from './components/Contact';
 // import AddAttraction from './components/AddAttraction'
 // import Museums from './components/Museums'
@@ -13,6 +13,7 @@ import Contact from './components/Contact';
 // import Food from './components/Food'
 // import Entertainment from '.components/Entertainment'
 // import Attractions from './components/Attractions'
+import Footer from './components/Footer';
 
 
 
@@ -22,8 +23,8 @@ function App() {
      <div className="container">
       <Navbar />
       <br/>
-      <Route exact path='/' component={Home}/>
-        {/* <Route path='/about' component={About}/> */}
+        <Route exact path='/' component={Home}/>
+        <Route path='/about' component={About}/>
         <Route path='/contact' component={Contact}/> 
         {/* <Route path='/Addattraction' component={AddAttraction} />
         <Route path='/viewattractions' component={Attractions} />
@@ -31,6 +32,7 @@ function App() {
         <Route path='/Sports' component={Sports} />
         <Route path='/Food' component={Food} />
         <Route path='/Entertainment' component={Entertainment} /> */}
+      <Footer />
       </div>
     </Router>
   );
