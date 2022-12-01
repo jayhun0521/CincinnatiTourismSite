@@ -4,7 +4,10 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.5.3",
+    "jquery": "^3.6.1",
+    "popper.js": "^1.16.1",
     "react": "^17.0.1",
+    "react-bootstrap": "^2.6.0",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "5.0.1",
