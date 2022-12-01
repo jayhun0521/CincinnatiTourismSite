@@ -10,6 +10,8 @@
     "axios": "^1.2.0",
     "babel-plugin-macros": "^3.1.0",
     "bootstrap": "^4.5.3",
+    "jquery": "^3.6.1",
+    "popper.js": "^1.16.1",
     "react": "^17.0.1",
     "react-bootstrap": "^2.6.0",
     "react-dom": "^17.0.1",
