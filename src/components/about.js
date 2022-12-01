@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import image1 from './photos/7-8-22.jpg'
-import image2 from './photos/IMG_0269.jpg'
+import image2 from './photos/IMG_0259.jpg'
 
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
@@ -66,7 +66,8 @@ const About = () => {
 
       <div className="row">
         <div className="col-lg-3">
-        <img src={image2} className="rounded float-start img-fluid" alt="Darius Martin" />
+        <span style={{height: '200px'}}>
+        <img src={image2} className="rounded float-start img-fluid" alt="Darius Martin" /></span>
         <div className="about-work">
             <span style={{fontSize: '15px', fontWeight: 'bold'}}>
               <a href="http://www.linkedin.com/in/darius-martin-924b52215" target="">

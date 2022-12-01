@@ -8,7 +8,9 @@ const Footer = () => {
 		<div className="container">
 			<div className="row text-center text-xs-center text-sm-left text-md-left">
 				<div className="col-xs-12 col-sm-4 col-md-4">
-					<h5 className='mt-5'><span style={{color: 'white'}}>Download the App</span></h5>
+					<h5 className='mt-5'>
+            <span style={{color: 'white'}}>Download the App</span>
+          </h5>
             <ul class="list-unstyled quick-links">
               <li><img src={image1} height={100} alt="Google Play Store" /></li>
               <li><img src={image2} width={100} alt="Apple Store" /></li>
