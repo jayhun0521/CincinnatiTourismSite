@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
-// import AddAttraction from './components/AddAttraction'
+import AddAttractions from './components/AddAttractions';
 // import Museums from './components/Museums'
 // import Sport from './components/Sport'
 // import Food from './components/Food'
@@ -26,12 +26,12 @@ function App() {
         <Route exact path='/' component={Home}/>
         <Route path='/about' component={About}/>
         <Route path='/contact' component={Contact}/> 
-        {/* <Route path='/Addattraction' component={AddAttraction} />
-        <Route path='/viewattractions' component={Attractions} />
-        {/* <Route path='/Museums' component={Museums} />
-        <Route path='/Sports' component={Sports} />
-        <Route path='/Food' component={Food} />
-        <Route path='/Entertainment' component={Entertainment} /> */}
+        <Route path='/addattractions' component={AddAttractions} />
+        {/* <Route path='/viewattractions' component={Attractions} /> */}
+        {/* <Route path='/Museums' component={Museums} /> */}
+        {/* <Route path='/Sports' component={Sports} /> */}
+        {/* <Route path='/Food' component={Food} /> */}
+        {/* <Route path='/Entertainment' component={Entertainment} /> */}
       <Footer />
       </div>
     </Router>

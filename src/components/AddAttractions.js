@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import axios from 'axios'
+import { withRouter } from 'react-router-dom'
 
-export default class AddAttractions extends Component {
+class AddAttractions extends Component {
   constructor(props) {
     super(props);
 
@@ -105,6 +106,9 @@ render() {
                 </div>
             </form>
         </div>
+       
     )
 }
 }
+
+export default withRouter(AddAttractions)
