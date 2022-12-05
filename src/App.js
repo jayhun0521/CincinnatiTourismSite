@@ -13,7 +13,7 @@ import AddAttractions from './components/AddAttractions';
 // import Sport from './components/Sport'
 // import Food from './components/Food'
 // import Entertainment from '.components/Entertainment'
-// import Attractions from './components/Attractions'
+import Attractions from './components/Attractions'
 import Footer from './components/Footer';
 
 
@@ -28,7 +28,7 @@ function App() {
         <Route path='/about' component={About}/>
         <Route path='/contact' component={Contact}/> 
         <Route path='/addattractions' component={AddAttractions} />
-        {/* <Route path='/viewattractions' component={Attractions} /> */}
+        <Route path='/viewattractions' component={Attractions} />
         {/* <Route path='/Museums' component={Museums} /> */}
         {/* <Route path='/Sports' component={Sports} /> */}
         {/* <Route path='/Food' component={Food} /> */}

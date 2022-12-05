@@ -23,7 +23,7 @@ export default class Navbar extends Component {
               </Link>
             </li>
             <li className="navbar-item">
-              <Link to="/attractions" className="nav-link">
+              <Link to="/viewattractions" className="nav-link">
                 Attractions
               </Link>
             </li>
