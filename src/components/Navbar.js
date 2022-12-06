@@ -6,6 +6,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
+         <div class="container-fluid">
         <Link to="/" className="navbar-brand">
           Welcome to Cincinnati
         </Link>
@@ -22,7 +23,7 @@ export default class Navbar extends Component {
               </Link>
             </li>
             <li className="navbar-item">
-              <Link to="/attractions" className="nav-link">
+              <Link to="/viewattractions" className="nav-link">
                 Attractions
               </Link>
             </li>
@@ -37,6 +38,7 @@ export default class Navbar extends Component {
               </Link>
             </li>
           </ul>
+        </div>
         </div>
       </nav>
     );

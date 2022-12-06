@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+#name-box{
+  background-color: grey;
+  color: white;
+  font-weight: 500;
+  
+}
+
+label {
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+.attractionImage {
+  display: flexbox;
+  margin-left: 10px;
+}
+
+
+
+.attractionsInnerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.allAttractions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
