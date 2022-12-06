@@ -1,0 +1,23 @@
+.heading {
+    text-align: center;
+    text-shadow: 2px 2px red;
+}
+
+.cincinnati-img{
+    align-items: center;
+    text-align: center;
+}
+
+.hist-title {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.hist-text {
+    margin-top: 30px;
+    font-size: large;
+}
+.forcast {
+    text-align: center;
+    margin-top: 50px;
+}
