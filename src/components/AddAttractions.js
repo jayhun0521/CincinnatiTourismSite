@@ -110,8 +110,8 @@ class AddAttractions extends Component {
           indoors: this.state.indoors,
           childFriendly: this.state.childFriendly
       }
-      console.log('http://localhost:5000/attractions/update/'+this.props.match.params.id, attraction)
-      axios.post('http://localhost:5000/attractions/update/'+this.props.match.params.id, attraction)
+      console.log('http://localhost:5000/attractions/add/', attraction)
+      axios.post('http://localhost:5000/attractions/add/', attraction)
       .then(res => console.log(res.data));
       // window.location='/viewattractions'
       this.props.history.push('/viewattractions');

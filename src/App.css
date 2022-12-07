@@ -50,8 +50,10 @@ label {
 }
 
 .attractionImage {
-  display: flexbox;
+  display: flex;
   margin-left: 10px;
+  height: 400px;
+  width: 400px;
 }
 
 
@@ -59,7 +61,8 @@ label {
 .attractionsInnerContainer {
   display: flex;
   flex-direction: row;
-  justify-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -69,4 +72,13 @@ label {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.card {
+  margin: 10px;
+}
+
+.card-img-top {
+  height: 200px;
+  width: 100%;
 }
