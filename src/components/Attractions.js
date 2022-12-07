@@ -13,7 +13,7 @@ const Attraction = (props) => {
       <Card.Body>
         <Card.Title>{props.attraction.name}</Card.Title>
         <Card.Text>
-        <Link className='link-details' link to={'http://localhost:5000/attractions/' + props.attraction._id}>Details</Link>
+        <Link className='link-details' link to={'/attractions/' + props.attraction._id}>Details</Link>
         </Card.Text>
         <Button variant="success"><a
                 className="link-site"
@@ -61,7 +61,7 @@ export default class Attractions extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      attractions: [],
+      attractions: []
     
     };
   }
@@ -70,7 +70,7 @@ export default class Attractions extends Component {
       .get("http://localhost:5000/attractions/")
       .then((response) => {
         this.setState({
-          attractions: response.data,
+          attractions: response.data
           
         });
         console.log("this is the list of attractions");

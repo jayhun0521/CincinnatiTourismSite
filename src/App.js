@@ -15,6 +15,7 @@ import AddAttractions from './components/AddAttractions';
 // import Entertainment from '.components/Entertainment'
 import Attractions from './components/Attractions'
 import Footer from './components/Footer';
+import SingleAttraction from './components/SingleAttraction';
 
 
 
@@ -33,6 +34,7 @@ function App() {
         {/* <Route path='/Sports' component={Sports} /> */}
         {/* <Route path='/Food' component={Food} /> */}
         {/* <Route path='/Entertainment' component={Entertainment} /> */}
+        <Route exact path='/attractions/:id' component={SingleAttraction} />
       <Footer />
       </div>
     </Router>
