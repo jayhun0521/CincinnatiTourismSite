@@ -123,62 +123,62 @@ class AddAttractions extends Component {
               <div className='containerAddPage'>
                   <h2 className='text-center' id="header-text">Add New Attraction</h2>
                   <form className='add' onSubmit={this.onSubmit}>
-                      <div className="form-group" id="name-box">
+                      <div className="form-group" id="name-box" style={{border:'solid black'}}>
                           <label>Name:</label>
                           <input type='text' required className='form-control inputs' 
                           value={this.state.name} onChange={this.onChangeName}>
                           </input>
                       </div>
-                      <div className="form-group" id="name-box">
+                      <div className="form-group" id="name-box" style={{border:'solid black'}}>
                           <label>Description: </label>
                           <input type='text' required 
                           className='form-control' 
                           value={this.state.description} onChange={this.onChangeDescription}>
                           </input>
                       </div>
-                      <div className="form-group" id="name-box">
+                      <div className="form-group" id="name-box" style={{border:'solid black'}}>
                           <label>Website: </label>
                           <input type='text' required 
                           className='form-control' 
                           value={this.state.website} onChange={this.onChangeWebsite}>
                           </input>
                       </div>
-                      <div className="form-group" id="name-box">
+                      <div className="form-group" id="name-box" style={{border: 'solid black'}}>
                           <label>Image URL: </label>
                           <input type='text' required
                            className='form-control' 
                           value={this.state.imageURL} onChange={this.onChangeImageURL}>
                           </input>
                       </div>
-                      <div className="form-group" id="name-box">
+                      <div className="form-group" id="name-box" style={{border:'solid black'}}>
                           <label>Street Address: </label>
                           <input type='text' required 
                           className='form-control' 
                           value={this.state.location.address} onChange={this.onChangeAddress}>
                           </input>
                       </div>
-                      <div className="form-group" id="name-box">
+                      <div className="form-group" id="name-box" style={{border:'solid black'}}>
                           <label>City: </label>
                           <input type='text' required 
                           className='form-control' 
                           value={this.state.location.city} onChange={this.onChangeCity}>
                           </input>
                       </div>
-                      <div className="form-group" id="name-box">
+                      <div className="form-group" id="name-box" style={{border:'solid black'}}>
                           <label>State: </label>
                           <input type='text' required 
                           className='form-control' 
                           value={this.state.location.state} onChange={this.onChangeState}>
                           </input>
                       </div>
-                      <div className="form-group" id="name-box">
+                      <div className="form-group" id="name-box" style={{border:'solid black'}}>
                           <label>Zipcode: </label>
                           <input type='text' required
                            className='form-control' 
                           value={this.state.location.zipcode} onChange={this.onChangeZipcode}>
                           </input>
                       </div>
-                      <div className="form-group" id="name-box">
+                      <div className="form-group" id="name-box" style={{border:'solid black'}}>
                           <label>Indoors: </label>
                           <div className="select-style">
                           <select required 
@@ -190,7 +190,7 @@ class AddAttractions extends Component {
                           </select>
                           </div>
                       </div>
-                      <div className="form-group" id="name-box">
+                      <div className="form-group" id="name-box" style={{border:'solid black'}}>
                           <label>Child Friendly: </label>
                           <div className="select-style">
                           <select required 

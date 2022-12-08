@@ -8,14 +8,14 @@ const Attraction = (props) => {
   return (
     <div className="allAttractions justify-content-lg-center">
 
-<Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={props.attraction.imageURL} />
+<Card style={{ width: '18rem', border: '2px solid' }}>
+      <Card.Img variant="top" src={props.attraction.imageURL} style={{border: '2px solid'}} />
       <Card.Body>
         <Card.Title>{props.attraction.name}</Card.Title>
         <Card.Text>
-        <Link className='link-details' link to={'/attractions/' + props.attraction._id}>Details</Link>
+        <Link className='link-details' link to={'/attractions/' + props.attraction._id}><Button variant="dark" size="md" >Details</Button></Link>
         </Card.Text>
-        <Button variant="success"><a
+        <Button variant="dark" size="md" font-color='white'><a
                 className="link-site"
                 href={props.attraction.website}
                 target="_blank"

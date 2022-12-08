@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { Component } from 'react'
+import './singleAttraction.css'
 
 class SingleAttraction extends Component {
   constructor(props) {
@@ -44,8 +45,8 @@ componentDidMount() {
 }
   render() {
     return (
-      <div>
-        {this.state.name}
+      <div className='singleHeaderContainer'>
+        <h1>{this.state.name}</h1>
         <div>
           <div className='singleContainer'>
               <div className="singleHeaderContainer">
@@ -57,7 +58,7 @@ componentDidMount() {
                       <div className='text-single-address'>
                           {this.state.location.address}
                           <br />
-                          {this.state.location.city}, {this.state.location.state}
+                          {this.state.location.city}, {this.state.location.state}, {this.state.location.zipcode}
                       </div>
                   </div>
                   </div>
@@ -72,8 +73,10 @@ componentDidMount() {
                           <div id="singleIndoors"><span>Indoors?</span> <br/> {this.state.indoors}</div>
                           <div id="singleFamily"><span>Family Friendly?</span> <br/> {this.state.childFriendly}</div>
                       </div>
-                      <div>
+                      <div className='singleAttractionButton'>
+                      <button className=''>
                       <a href={this.state.website} className='attractionLink' target="_blank" rel="noreferrer">Visit Website</a>
+                      </button>
                       </div>
                    </div>
               </div>
