@@ -88,5 +88,9 @@ label {
   width: 100%;
 }
 
-
+.hist-text{
+  border: 5px solid;
+  padding: 15px;
+  font-weight: 500;
+}
 
