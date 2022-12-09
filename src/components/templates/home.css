@@ -52,4 +52,6 @@ ul li:hover{
     transform: scale(1.06);
     background: gray;
 }
-
+.news-head{
+    text-align: center;
+}
