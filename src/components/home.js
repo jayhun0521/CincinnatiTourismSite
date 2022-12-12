@@ -211,7 +211,7 @@ class Home extends Component {
         </div>
         <div className="news-cards">
 
-{/* <<<<<<< HEAD */}
+
       <div className='heading'>
         <h1 className='title'>Welcome to Cincinnati Tours</h1>
         <br/>
@@ -248,8 +248,9 @@ class Home extends Component {
           <span className="age">49</span>
           <span className="occupation">Actor/singer</span>
           <span className="logo"><i class="fa-solid fa-football"></i></span>
-          <li/>
-          <ul/>
+          </li>
+          </ul>
+          </div>
 {/* ======= */}
           <CardGroup>
             <Card>
