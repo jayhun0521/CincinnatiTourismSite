@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import './templates/Home.css';
+import './templates/home.css';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import CardGroup from 'react-bootstrap/CardGroup';
 import { Link } from "react-router-dom";
+import Carousel from 'react-bootstrap/Carousel';
 
 
 
@@ -13,26 +14,64 @@ class Home extends Component {
   render() {
     return (
       <section className="homepage">
-        <div className="heading">
-          <h1 className="title">Welcome to Cincinnati</h1>
-        </div>
-        <div className="cincinnati-img">
-          <img
-            src="https://media0.giphy.com/media/KK04ChrBCXakUq7y1I/giphy.gif?cid=6c09b952dd72d3ea1147a77892e5e1fd81db2cfb60bc7afe&rid=giphy.gif&ct=g"
-            alt=""
-          />
-        </div>
-        <div className="history">
-          <h1 className="hist-title">History</h1>
-          <p className="hist-text">
-            Cincinnati was founded in 1788 by Mathias Denman. Colonel Robert,
-            and Israel Ludlow. The name Cincinnati was named by romen soldiers
-            back in the 5th century. Since then Cincinnati has grow lots and
-            lots to now have a population of 308,935. Since then Cincinnati has
-            grown a reputation to be known for out Chili, Beer, and now sports
-            team.{" "}
+        <div className='heading'>
+        <Carousel>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://lyfepyle.com/wp-content/uploads/2021/05/Cincinnati-Cover-Photos.jpg"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>Welcome to Cincinnati</h3>
+          <p>Learn about places to go, things to do, and see in this historic American city!</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://datenightcincinnati.com/wp-content/uploads/sites/52/2019/02/DmMpOrhWsAEdT4c.jpg"
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Welcome to Cincinnati</h3>
+          <p>Learn about places to go, things to do, and see in this historic American city!</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://i.ytimg.com/vi/BZFWeuF2O4c/maxresdefault.jpg"
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Welcome to Cincinnati</h3>
+          <p>
+          Learn about places to go, things to do, and see in this historic American city!
           </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+        <h1 className='title'>Welcome to Cincinnati Tours</h1>
+        <br/>
+        <h3><blockquote>Learn about places to go, things to do, and see in this historic American city! </blockquote></h3>
+        <br />
+      </div>
+     
+      <div className="history">
+        <h2 className='hist-title' id="history-text">History</h2>
         </div>
+        <div className='hist-text'>
+        <p>Cincinnati (/ˌsɪnsɪˈnæti/ SIN-si-NAT-ee) is a city in the U.S. state of Ohio and the county seat of Hamilton County. Settled in 1788, the city is located at the northern side of the confluence of the Licking and Ohio rivers, the latter of which marks the state line with Kentucky. The city is the economic and cultural hub of the Cincinnati metropolitan area. With an estimated population of 2,256,884, it is Ohio's largest metropolitan area and the nation's 30th-largest, and with a city population of 309,317, Cincinnati is the third-largest city in Ohio and 64th in the United States. Throughout much of the 19th century, it was among the top 10 U.S. cities by population, surpassed only by New Orleans and the older, established settlements of the United States eastern seaboard, as well as being the sixth-most populous city from 1840 until 1860. </p>
+        <p>
+        Cincinnati is home to three major sports teams: the Cincinnati Reds of Major League Baseball; the Cincinnati Bengals of the National Football League; and FC Cincinnati of Major League Soccer; it is also home to the Cincinnati Cyclones, a minor league ice hockey team. The city's largest institution of higher education, the University of Cincinnati, was founded in 1819 as a municipal college and is now ranked as one of the 50 largest in the United States. Cincinnati is home to historic architecture with many structures in the urban core having remained intact for 200 years. In the late 1800s, Cincinnati was commonly referred to as the "Paris of America", due mainly to such ambitious architectural projects as the Music Hall, Cincinnatian Hotel, and Shillito Department Store. Cincinnati is the birthplace of William Howard Taft, the 27th President and former Chief Justice of the United States.
+        </p>
+        <p >To see more, go to <a href="https://en.wikipedia.org/wiki/Cincinnati">Wikipedia </a></p>
+        </div>
+
+       
         <div className="weather">
           <h1 className="forcast">Forcast</h1>
           <CardGroup>
@@ -114,11 +153,12 @@ class Home extends Component {
         </Card.Footer>
       </Card>
     </CardGroup>
+  
     
         </div>
         <div className="famous">
-          <h1 className="talent">Talent that came from Cincinnati</h1>
-          <ul className="names">
+         
+          {/* <ul className="names">
             <li>
               <a href="https://en.wikipedia.org/wiki/Russell_Wilson">
                 <span className="name"> Russell Wilson</span>
@@ -212,7 +252,7 @@ class Home extends Component {
                 <i class="fa-solid fa-football"></i>
               </span>
             </li>
-          </ul>
+          </ul> */}
         </div>
         <div className="news">
           <h1 className="news-head">News</h1>
@@ -292,46 +332,6 @@ class Home extends Component {
         </div>
         <div className="news-cards">
 
-
-      <div className='heading'>
-        <h1 className='title'>Welcome to Cincinnati Tours</h1>
-        <br/>
-        <h3><blockquote>Learn about places to go, things to do, and see in this historic American city! </blockquote></h3>
-        <br />
-      </div>
-      <div className="cincinnati-img">
-        <img src="https://media0.giphy.com/media/KK04ChrBCXakUq7y1I/giphy.gif?cid=6c09b952dd72d3ea1147a77892e5e1fd81db2cfb60bc7afe&rid=giphy.gif&ct=g" alt="" />
-      </div>
-      <div className="history">
-        <h2 className='hist-title'>History</h2>
-        <div className='hist-text'>
-        <p>Cincinnati (/ˌsɪnsɪˈnæti/ SIN-si-NAT-ee) is a city in the U.S. state of Ohio and the county seat of Hamilton County. Settled in 1788, the city is located at the northern side of the confluence of the Licking and Ohio rivers, the latter of which marks the state line with Kentucky. The city is the economic and cultural hub of the Cincinnati metropolitan area. With an estimated population of 2,256,884, it is Ohio's largest metropolitan area and the nation's 30th-largest, and with a city population of 309,317, Cincinnati is the third-largest city in Ohio and 64th in the United States. Throughout much of the 19th century, it was among the top 10 U.S. cities by population, surpassed only by New Orleans and the older, established settlements of the United States eastern seaboard, as well as being the sixth-most populous city from 1840 until 1860. </p>
-        <p>
-        Cincinnati is home to three major sports teams: the Cincinnati Reds of Major League Baseball; the Cincinnati Bengals of the National Football League; and FC Cincinnati of Major League Soccer; it is also home to the Cincinnati Cyclones, a minor league ice hockey team. The city's largest institution of higher education, the University of Cincinnati, was founded in 1819 as a municipal college and is now ranked as one of the 50 largest in the United States. Cincinnati is home to historic architecture with many structures in the urban core having remained intact for 200 years. In the late 1800s, Cincinnati was commonly referred to as the "Paris of America", due mainly to such ambitious architectural projects as the Music Hall, Cincinnatian Hotel, and Shillito Department Store. Cincinnati is the birthplace of William Howard Taft, the 27th President and former Chief Justice of the United States.
-        </p>
-        <p >To see more, go to <a href="https://en.wikipedia.org/wiki/Cincinnati">Wikipedia </a></p>
-        </div>
-      </div>
-      <div className="weather">
-        <h2 className='forcast'>Forecast</h2>
-      </div>
-      <div className="famous">
-      <h2 className='talent'>Famous Cincinnati Natives</h2>
-        <ul className='names'>
-        <li><a href="https://en.wikipedia.org/wiki/Russell_Wilson">
-          <span className="name"> Russell Wilson</span></a>
-          <span className="age">34</span>
-          <span className="occupation">Football</span>
-          <span className="logo"><i class="fa-solid fa-football"></i></span>
-        </li>
-        <li> <a href="https://en.wikipedia.org/wiki/Nick_Lachey">
-          <span className="name">Nick Lachey</span></a>
-          <span className="age">49</span>
-          <span className="occupation">Actor/singer</span>
-          <span className="logo"><i class="fa-solid fa-football"></i></span>
-          </li>
-          </ul>
-          </div>
 {/* ======= */}
           <CardGroup>
             <Card>
@@ -379,14 +379,12 @@ class Home extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://e7n9s5t9.stackpathcdn.com/articles/wp-content/uploads/2019/07/browns-vs-bengals.jpg"
+                src="http://s.espncdn.com/stitcher/sports/football/nfl/events/401437914.png?templateId=espn.com.share.1"
               />
               <Card.Body>
                 <Card.Title>Bengal Sunday</Card.Title>
                 <Card.Text>
-                  This Sunday the bengals face off agaist the Dashuan Watson and
-                  the browns to hopefully get Joe Burrow's first win in his
-                  carrer agaist them.
+                  Bengals beat the browns this past sunday with a final score of 23-10, Burrow and the Bengals will face off agaist Brady and Tampa Bay to hopefully continue their streak
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -397,6 +395,87 @@ class Home extends Component {
               </Card.Footer>
             </Card>
           </CardGroup>
+        </div>
+
+        <div className="practice">
+          <h2 className="text-center">Talent from Cincinnati</h2>
+          <Carousel slide={false}>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://cdn.vox-cdn.com/thumbor/MklJpzO0aNlqdBwguvG2tpseerU=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/23299158/RussellWilsonBroncos_Getty_Ringer.jpeg"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>Russell Wilson</h3>
+          <p>Starting QB for the Denver Broncos he's in season 10 and has won a superbowl back in.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://www.billboard.com/wp-content/uploads/media/nick-lachey-2019-portrait-billboard-1548.jpg?w=1024"
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Nick Lachey</h3>
+          <p>Nick is a  singer, actor, television personality, and host. He rose to fame as the lead singer of the multi-platinum-selling boyband 98 Degrees, and later starred in some reality series.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="http://del.h-cdn.co/assets/17/30/1024x512/landscape-1500921835-delish-carmen-electra.jpg"
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Camen Electra</h3>
+          <p>
+          Carmen is an American actress, model, singer, and media personality.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://cdn.vox-cdn.com/thumbor/GPTWQV1c3YfPLX-RnMe8eYlAIy0=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19602941/Luke_Kuechly.jpg"
+          alt="Fourth slide"
+        />
+        <Carousel.Caption>
+          <h3>Luke Kuechly</h3>
+          <p>Former Linebacker for the panthers Luke Kuechly was a 2012 defensive rookie of the year but later retired in 2021 because of health reasons.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://mlb.nbcsports.com/wp-content/uploads/sites/7/2020/03/GettyImages-515218066-e1584710260329.jpg"
+          alt="Fifth slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Pete Rose</h3>
+          <p>Pete Rose aka American former professional baseball player and manager. He won three World Series, three batting titles, one Most Valuable Player Award, two Gold Gloves, and the Rookie of the Year Award.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc5MDgwNzkzNDE3MDMz/william_howard_taft.jpg"
+          alt="Sixth slide"
+        />
+
+        <Carousel.Caption>
+          <h3>William Howard Taft</h3>
+          <p>
+          William was the 27th president back in 1909 and became the 10th chief justice of the U.S.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+       </Carousel>
         </div>
       </section>
     );
