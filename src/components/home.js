@@ -8,6 +8,7 @@ import CardGroup from 'react-bootstrap/CardGroup';
 import { Link } from "react-router-dom";
 
 
+
 class Home extends Component {
   render() {
     return (
@@ -34,6 +35,86 @@ class Home extends Component {
         </div>
         <div className="weather">
           <h1 className="forcast">Forcast</h1>
+          <CardGroup>
+      <Card>
+        <Card.Img variant="top" src="https://i.pinimg.com/originals/20/e6/03/20e60377fb5710a7335be9bec1884877.gif" />
+        <Card.Body>
+          <Card.Title>Monday</Card.Title>
+          <Card.Text>
+            Partually sunny with ah high of 43 and a low of 31
+          </Card.Text>
+        </Card.Body>
+        <Card.Footer>
+          <small className="text-muted">Last updated 3 mins ago</small>
+        </Card.Footer>
+      </Card>
+      <Card>
+        <Card.Img variant="top" src="https://media.tenor.com/438H6u87JfsAAAAM/sky-clouds.gif" />
+        <Card.Body>
+          <Card.Title>Tuesday</Card.Title>
+          <Card.Text>
+           Cloudy with a high of 46 and a low of 27{' '}
+          </Card.Text>
+        </Card.Body>
+        <Card.Footer>
+          <small className="text-muted">Last updated 3 mins ago</small>
+        </Card.Footer>
+      </Card>
+      <Card>
+        <Card.Img variant="top" src="https://cdn.dribbble.com/users/199340/screenshots/2146877/rainy-800x600.gif" />
+        <Card.Body>
+          <Card.Title>Wednesday</Card.Title>
+          <Card.Text>
+            100% chance of rain with a high of 48 and a low of 38
+          </Card.Text>
+        </Card.Body>
+        <Card.Footer>
+          <small className="text-muted">Last updated 3 mins ago</small>
+        </Card.Footer>
+      </Card>
+    </CardGroup>
+    <CardGroup>
+      <Card>
+        <Card.Img variant="top" src="https://cdn.dribbble.com/users/199340/screenshots/2146877/rainy-800x600.gif" />
+        <Card.Body>
+          <Card.Title>Thursday</Card.Title>
+          <Card.Text>
+            50% chance of rain with a high of 37 amd a low of 30 longer.
+          </Card.Text>
+        </Card.Body>
+        <Card.Footer>
+          <small className="text-muted">Last updated 3 mins ago</small>
+        </Card.Footer>
+      </Card>
+      <Card>
+        <Card.Img variant="top" src="https://media.tenor.com/438H6u87JfsAAAAM/sky-clouds.gif" />
+        <Card.Body>
+          <Card.Title>Friday</Card.Title>
+          <Card.Text>
+            This card has supporting text below as a natural lead-in to
+            additional content.{' '}
+          </Card.Text>
+        </Card.Body>
+        <Card.Footer>
+          <small className="text-muted">Last updated 3 mins ago</small>
+        </Card.Footer>
+      </Card>
+      <Card>
+        <Card.Img variant="top" src="https://media.tenor.com/438H6u87JfsAAAAM/sky-clouds.gif" />
+        <Card.Body>
+          <Card.Title>Saturday</Card.Title>
+          <Card.Text>
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This card has even longer content than the
+            first to show that equal height action.
+          </Card.Text>
+        </Card.Body>
+        <Card.Footer>
+          <small className="text-muted">Last updated 3 mins ago</small>
+        </Card.Footer>
+      </Card>
+    </CardGroup>
+    
         </div>
         <div className="famous">
           <h1 className="talent">Talent that came from Cincinnati</h1>
