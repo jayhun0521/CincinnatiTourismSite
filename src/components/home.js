@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './templates/home.css';
+import './templates/Home.css';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -211,7 +211,7 @@ class Home extends Component {
         </div>
         <div className="news-cards">
 
-<<<<<<< HEAD
+{/* <<<<<<< HEAD */}
       <div className='heading'>
         <h1 className='title'>Welcome to Cincinnati Tours</h1>
         <br/>
@@ -242,14 +242,15 @@ class Home extends Component {
           <span className="age">34</span>
           <span className="occupation">Football</span>
           <span className="logo"><i class="fa-solid fa-football"></i></span>
-          
         </li>
         <li> <a href="https://en.wikipedia.org/wiki/Nick_Lachey">
           <span className="name">Nick Lachey</span></a>
           <span className="age">49</span>
           <span className="occupation">Actor/singer</span>
           <span className="logo"><i class="fa-solid fa-football"></i></span>
-=======
+          <li/>
+          <ul/>
+{/* ======= */}
           <CardGroup>
             <Card>
               <Card.Img
@@ -264,7 +265,7 @@ class Home extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
->>>>>>> c5244c3437cc889f26c4c29f57f4b471bfae3c27
+{/* >>>>>>> c5244c3437cc889f26c4c29f57f4b471bfae3c27 */}
 
                    <a href="https://local12.com/sports/uc-bearcats/cincinnati-bearcats-football-coach-satterfield-pay-salary-less-than-fickell-wisconsin-badgers-contract#">
                   
@@ -301,13 +302,12 @@ class Home extends Component {
               <Card.Body>
                 <Card.Title>Bengal Sunday</Card.Title>
                 <Card.Text>
-                  This Sunday the bengals face off agaist the Desean Watson and
+                  This Sunday the bengals face off agaist the Dashuan Watson and
                   the browns to hopefully get Joe Burrow's first win in his
                   carrer agaist them.
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-    
                     <a href="https://local12.com/sports/bengals/cincinnati-bengals-sam-hubbard-teammates-try-end-5-game-skid-against-cleveland-browns-we-kind-of-owe-these-guys-nfl-pro-football-joe-mixon-burrow-deshaun-watson-myles-garrett-battle-ohio">
         
                     <button>More Info</button>
