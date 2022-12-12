@@ -48,32 +48,6 @@ const Attraction = (props) => {
           </Button>
         </Card.Body>
       </Card>
-
-      {/* {/* <div className="attractionsCard">
-          <div className="cardImage">
-            <img
-              className="attractionImage"
-              src={props.attraction.imageURL}
-              alt="attraction picture"
-            />
-          </div>
-          <div className="text">
-            <div className="text-name" >{props.attraction.name}</div>
-            <div className='text-link'>
-                      <Link className='link-details' Link to={'/viewattractions'}>Details</Link>
-                  </div>
-            <div className="website">
-              <a
-                className="link-site"
-                href={props.attraction.website}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Website
-              </a>
-            </div>
-          </div> */}
-      {/* </div> */}
     </div>
   );
 };
