@@ -5,8 +5,8 @@ import image2 from "./photos/IMG_0259.jpg";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 // import { relative } from 'path';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
   // const {key, setKey} = useState('home');
@@ -69,7 +69,6 @@ const About = () => {
             </Tabs>
           </div>
         </div>
-        <FontAwesomeIcon icon={faEnvelope}/>
         <hr />
       </form>
 
@@ -136,7 +135,6 @@ const About = () => {
           </Tabs>
         </div>
       </div>
-      <FontAwesomeIcon icon={faEnvelope} />
     </div>
   );
 };

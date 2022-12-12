@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './templates/home.css';
+import './templates/Home.css';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -292,6 +292,46 @@ class Home extends Component {
         </div>
         <div className="news-cards">
 
+{/* <<<<<<< HEAD */}
+      <div className='heading'>
+        <h1 className='title'>Welcome to Cincinnati Tours</h1>
+        <br/>
+        <h3><blockquote>Learn about places to go, things to do, and see in this historic American city! </blockquote></h3>
+        <br />
+      </div>
+      <div className="cincinnati-img">
+        <img src="https://media0.giphy.com/media/KK04ChrBCXakUq7y1I/giphy.gif?cid=6c09b952dd72d3ea1147a77892e5e1fd81db2cfb60bc7afe&rid=giphy.gif&ct=g" alt="" />
+      </div>
+      <div className="history">
+        <h2 className='hist-title'>History</h2>
+        <div className='hist-text'>
+        <p>Cincinnati (/ˌsɪnsɪˈnæti/ SIN-si-NAT-ee) is a city in the U.S. state of Ohio and the county seat of Hamilton County. Settled in 1788, the city is located at the northern side of the confluence of the Licking and Ohio rivers, the latter of which marks the state line with Kentucky. The city is the economic and cultural hub of the Cincinnati metropolitan area. With an estimated population of 2,256,884, it is Ohio's largest metropolitan area and the nation's 30th-largest, and with a city population of 309,317, Cincinnati is the third-largest city in Ohio and 64th in the United States. Throughout much of the 19th century, it was among the top 10 U.S. cities by population, surpassed only by New Orleans and the older, established settlements of the United States eastern seaboard, as well as being the sixth-most populous city from 1840 until 1860. </p>
+        <p>
+        Cincinnati is home to three major sports teams: the Cincinnati Reds of Major League Baseball; the Cincinnati Bengals of the National Football League; and FC Cincinnati of Major League Soccer; it is also home to the Cincinnati Cyclones, a minor league ice hockey team. The city's largest institution of higher education, the University of Cincinnati, was founded in 1819 as a municipal college and is now ranked as one of the 50 largest in the United States. Cincinnati is home to historic architecture with many structures in the urban core having remained intact for 200 years. In the late 1800s, Cincinnati was commonly referred to as the "Paris of America", due mainly to such ambitious architectural projects as the Music Hall, Cincinnatian Hotel, and Shillito Department Store. Cincinnati is the birthplace of William Howard Taft, the 27th President and former Chief Justice of the United States.
+        </p>
+        <p >To see more, go to <a href="https://en.wikipedia.org/wiki/Cincinnati">Wikipedia </a></p>
+        </div>
+      </div>
+      <div className="weather">
+        <h2 className='forcast'>Forecast</h2>
+      </div>
+      <div className="famous">
+      <h2 className='talent'>Famous Cincinnati Natives</h2>
+        <ul className='names'>
+        <li><a href="https://en.wikipedia.org/wiki/Russell_Wilson">
+          <span className="name"> Russell Wilson</span></a>
+          <span className="age">34</span>
+          <span className="occupation">Football</span>
+          <span className="logo"><i class="fa-solid fa-football"></i></span>
+        </li>
+        <li> <a href="https://en.wikipedia.org/wiki/Nick_Lachey">
+          <span className="name">Nick Lachey</span></a>
+          <span className="age">49</span>
+          <span className="occupation">Actor/singer</span>
+          <span className="logo"><i class="fa-solid fa-football"></i></span>
+          <li/>
+          <ul/>
+{/* ======= */}
           <CardGroup>
             <Card>
               <Card.Img
@@ -306,6 +346,7 @@ class Home extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
+{/* >>>>>>> c5244c3437cc889f26c4c29f57f4b471bfae3c27 */}
 
                    <a href="https://local12.com/sports/uc-bearcats/cincinnati-bearcats-football-coach-satterfield-pay-salary-less-than-fickell-wisconsin-badgers-contract#">
                   
@@ -342,13 +383,12 @@ class Home extends Component {
               <Card.Body>
                 <Card.Title>Bengal Sunday</Card.Title>
                 <Card.Text>
-                  This Sunday the bengals face off agaist the Desean Watson and
+                  This Sunday the bengals face off agaist the Dashuan Watson and
                   the browns to hopefully get Joe Burrow's first win in his
                   carrer agaist them.
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-    
                     <a href="https://local12.com/sports/bengals/cincinnati-bengals-sam-hubbard-teammates-try-end-5-game-skid-against-cleveland-browns-we-kind-of-owe-these-guys-nfl-pro-football-joe-mixon-burrow-deshaun-watson-myles-garrett-battle-ohio">
         
                     <button>More Info</button>
