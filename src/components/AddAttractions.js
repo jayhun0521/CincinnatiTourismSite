@@ -122,6 +122,7 @@ class AddAttractions extends Component {
           <div>
               <div className='containerAddPage'>
                   <h2 className='text-center' id="header-text">Add New Attraction</h2>
+                   <h4 className='text-center'>Don't see one of Cincinnati's well-known attractions that you know and love? You can add it here!</h4>
                   <form className='add' onSubmit={this.onSubmit}>
                       <div className="form-group" id="name-box" style={{border:'solid black'}}>
                           <label>Name:</label>

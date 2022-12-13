@@ -57,13 +57,13 @@ const About = () => {
               </Tab>
               <Tab eventKey="technologies" title="Technologies">
                 <ul>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>JavaScript</li>
-                  <li>React.js</li>
-                  <li>Bootstrap</li>
-                  <li>Node.js</li>
-                  <li>MongoDB/NoSQL</li>
+                  <li style={{color:'blue'}}>HTML5</li>
+                  <li style={{color:'blue'}}>CSS3</li>
+                  <li style={{color:'blue'}}>JavaScript</li>
+                  <li style={{color:'blue'}}>React.js</li>
+                  <li style={{color:'blue'}}>Bootstrap 5</li>
+                  <li style={{color:'blue'}}>Node.js</li>
+                  <li style={{color:'blue'}}>MongoDB/NoSQL</li>
                 </ul>
               </Tab>
             </Tabs>
@@ -123,13 +123,13 @@ const About = () => {
             </Tab>
             <Tab eventKey="technologies" title="Technologies">
               <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>React.js</li>
-                <li>Bootstrap</li>
-                <li>Node.js</li>
-                <li>MongoDB/NoSQL</li>
+                <li style={{color:'blue'}}>HTML5</li>
+                <li style={{color:'blue'}}>CSS3</li>
+                <li style={{color:'blue'}}>JavaScript</li>
+                <li style={{color:'blue'}}>React.js</li>
+                <li style={{color:'blue'}}>Bootstrap 5</li>
+                <li style={{color:'blue'}}>Node.js</li>
+                <li style={{color:'blue'}}>MongoDB/NoSQL</li>
               </ul>{" "}
             </Tab>
           </Tabs>

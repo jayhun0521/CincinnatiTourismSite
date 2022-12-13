@@ -90,6 +90,9 @@ export default class Attractions extends Component {
 
         <div className="attractionsContainer">
           <h2 className="attractionsHeader text-center">Attractions</h2>
+          <h3 className="attractionsSubHeader text-center"> Must-see locations that make Cincinnati unique</h3>    
+          <br/>
+          <h4 className="attractionsSelect text-center">Please select your point of interest</h4>
           <div className="attractionsInnerContainer">
             {this.attractionsList()}
           </div>
