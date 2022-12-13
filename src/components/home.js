@@ -18,46 +18,42 @@ class Home extends Component {
         <Carousel>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="picture w-100"
           src="https://lyfepyle.com/wp-content/uploads/2021/05/Cincinnati-Cover-Photos.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Welcome to Cincinnati</h3>
+          <h2>Welcome to Cincinnati</h2>
           <p>Learn about places to go, things to do, and see in this historic American city!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="picture w-100"
           src="https://datenightcincinnati.com/wp-content/uploads/sites/52/2019/02/DmMpOrhWsAEdT4c.jpg"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Welcome to Cincinnati</h3>
+          <h2>Welcome to Cincinnati</h2>
           <p>Learn about places to go, things to do, and see in this historic American city!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="picture w-100"
           src="https://i.ytimg.com/vi/BZFWeuF2O4c/maxresdefault.jpg"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Welcome to Cincinnati</h3>
+          <h2>Welcome to Cincinnati</h2>
           <p>
           Learn about places to go, things to do, and see in this historic American city!
           </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-        <h1 className='title'>Welcome to Cincinnati Tours</h1>
-        <br/>
-        <h3><blockquote>Learn about places to go, things to do, and see in this historic American city! </blockquote></h3>
-        <br />
       </div>
      
       <div className="history">
@@ -92,7 +88,7 @@ class Home extends Component {
         <Card.Body>
           <Card.Title>Tuesday</Card.Title>
           <Card.Text>
-           Cloudy with a high of 46 and a low of 27{' '}
+           Cloudy day with a high of 46 and a low of 27{' '}
           </Card.Text>
         </Card.Body>
         <Card.Footer>
@@ -130,8 +126,7 @@ class Home extends Component {
         <Card.Body>
           <Card.Title>Friday</Card.Title>
           <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{' '}
+            Cloudy day with a high of 38 and a low of 29{' '}
           </Card.Text>
         </Card.Body>
         <Card.Footer>
@@ -143,9 +138,7 @@ class Home extends Component {
         <Card.Body>
           <Card.Title>Saturday</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
+            Cloudy day with a high of 33 and a low of 25
           </Card.Text>
         </Card.Body>
         <Card.Footer>
@@ -390,7 +383,7 @@ class Home extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                    <a href="https://local12.com/sports/bengals/cincinnati-bengals-sam-hubbard-teammates-try-end-5-game-skid-against-cleveland-browns-we-kind-of-owe-these-guys-nfl-pro-football-joe-mixon-burrow-deshaun-watson-myles-garrett-battle-ohio">
+                    <a href="https://www.espn.com/nfl/game/_/gameId/401437914">
         
                     <button>More Info</button>
                     </a>
@@ -404,7 +397,7 @@ class Home extends Component {
           <Carousel slide={false}>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="picture w-100"
           src="https://cdn.vox-cdn.com/thumbor/MklJpzO0aNlqdBwguvG2tpseerU=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/23299158/RussellWilsonBroncos_Getty_Ringer.jpeg"
           alt="First slide"
         />
@@ -415,7 +408,7 @@ class Home extends Component {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="picture w-100"
           src="https://www.billboard.com/wp-content/uploads/media/nick-lachey-2019-portrait-billboard-1548.jpg?w=1024"
           alt="Second slide"
         />
@@ -427,7 +420,7 @@ class Home extends Component {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="picture w-100"
           src="http://del.h-cdn.co/assets/17/30/1024x512/landscape-1500921835-delish-carmen-electra.jpg"
           alt="Third slide"
         />
@@ -442,7 +435,7 @@ class Home extends Component {
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="picture w-100"
           src="https://cdn.vox-cdn.com/thumbor/GPTWQV1c3YfPLX-RnMe8eYlAIy0=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19602941/Luke_Kuechly.jpg"
           alt="Fourth slide"
         />
@@ -453,7 +446,7 @@ class Home extends Component {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="picture w-100"
           src="https://mlb.nbcsports.com/wp-content/uploads/sites/7/2020/03/GettyImages-515218066-e1584710260329.jpg"
           alt="Fifth slide"
         />
@@ -465,7 +458,7 @@ class Home extends Component {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="picture w-100"
           src="https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc5MDgwNzkzNDE3MDMz/william_howard_taft.jpg"
           alt="Sixth slide"
         />

@@ -59,32 +59,13 @@ ul li:hover{
 .title{
     padding-top: 60px;
 }
-.history h2::before{
-    position: absolute;
-    top: 50%;
-    left: -80px;
-    content: '';
-    width: 70px;
-    height: 2px;
-    background: grey;
+.picture {
+  height: 600px;
+    
 }
-.history h2::after{
-    position: absolute;
-    top: 800px;
-    right: -80px;
-    content: '';
-    width: 70px;
-    height: 2px;
-    background: grey;
-
+.text-center{
+    padding-top: 70px;
 }
-
-.practice h2::before {
-    position: absolute;
-    top: 150%;
-    left: 80px;
-    content: '';
-    width: 70px;
-    height: 2px;
-    background: grey;
+.news-head {
+    padding-top: 70px;
 }
