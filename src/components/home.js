@@ -253,6 +253,8 @@ class Home extends Component {
               </span>
             </li>
           </ul> */}
+          <br />
+          <br />
         </div>
         <div className="news">
           <h1 className="news-head">News</h1>
